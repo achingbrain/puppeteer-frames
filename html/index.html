@@ -1,19 +1,10 @@
+<!DOCTYPE html>
 <html>
-  <head></head>
+  <head>
+    <title>Where is my iframe?</title>
+  </head>
   <body>
     <h1>Hello world</h1>
+    <iframe name="bob" src="https://google.com"></iframe>
   </body>
-
-  <script>
-
-  // use a timeout to simulate a single page app altering the DOM after loading
-  setTimeout(() => {
-    const frame = document.createElement('iframe')
-    frame.setAttribute('name', 'bob')
-    frame.setAttribute('src', 'https://google.com')
-
-    document.body.appendChild(frame)
-  }, 1000)
-
-  </script>
 </html>
