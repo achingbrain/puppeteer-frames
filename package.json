@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer-frames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "finalhandler": "^1.1.1",
+    "puppeteer": "^1.4.0",
+    "serve-static": "^1.13.2"
+  }
+}
